@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #171717;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  margin: 10;
+}
+
+.gridList {
+  aspect-ratio: 2/3;
+  /* height: 450 */
+}
+
+.header-section {
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #000 !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-left: 15px;
+  text-align: left;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.searchIcon {
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.input-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
