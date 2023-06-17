@@ -1,7 +1,7 @@
 {
   "name": "content-listing",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage" : "https://himani-12.github.io/contentListing/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
